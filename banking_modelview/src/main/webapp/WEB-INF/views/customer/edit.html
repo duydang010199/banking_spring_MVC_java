@@ -68,7 +68,7 @@
     </th:block>
     <th:block th:if="${error}">
       <div class="alert-danger">
-        <h5>Vui lòng sửa lỗi bên dưới:</h5>
+        <h5>Vui lòng nhập lại!</h5>
         <ul>
           <li th:each="err : ${#fields.errors('customer.*')}" th:text="${err}"></li>
         </ul>
